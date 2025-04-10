@@ -1,0 +1,12 @@
+<div class="button-group">
+  @for (icon of icons(); track icon.id) {
+    <button type="category" class="button-container">
+      <mat-icon
+        class="category-icon"
+        aria-hidden="false"
+        aria-label="category-button"
+        [fontIcon]="icon.name"
+      ></mat-icon>
+    </button>
+  }
+</div>
