@@ -8,5 +8,8 @@ import { MatIconModule } from "@angular/material/icon";
   styleUrl: "./category-button.component.css",
 })
 export class CategoryButtonComponent {
-  icons = input.required<{ id: number; name: string }[]>();
+  icons =
+    input.required<
+      { id: number; name: string; label: string; description: string }[]
+    >();
 }
