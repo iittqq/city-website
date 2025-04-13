@@ -1,0 +1,20 @@
+.button-group {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  justify-content: center;
+}
+
+.button-container {
+  width: 300px;
+  height: 150px;
+}
+
+.category-icon {
+  transform: scale(3);
+}
+
+.category-button-column {
+  width: auto;
+  flex-wrap: wrap;
+  max-width: 300px;
+}
