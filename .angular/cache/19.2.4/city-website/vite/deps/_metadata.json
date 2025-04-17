@@ -1,46 +1,55 @@
 {
-  "hash": "b2eb69a2",
-  "configHash": "76d0ca9f",
+  "hash": "089b4e32",
+  "configHash": "756c0bac",
   "lockfileHash": "c8966883",
-  "browserHash": "2b3afeb3",
+  "browserHash": "4e2d5f4c",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "668179aa",
+      "fileHash": "32b3ba4e",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "fac789e2",
+      "fileHash": "41a87021",
       "needsInterop": false
     },
     "@angular/router": {
       "src": "../../../../../../node_modules/@angular/router/fesm2022/router.mjs",
       "file": "@angular_router.js",
-      "fileHash": "0708ca1b",
+      "fileHash": "243028b3",
       "needsInterop": false
     },
     "@angular/material/icon": {
       "src": "../../../../../../node_modules/@angular/material/fesm2022/icon.mjs",
       "file": "@angular_material_icon.js",
-      "fileHash": "765c0c8d",
+      "fileHash": "ec32dc7a",
       "needsInterop": false
     },
     "@angular/cdk/bidi": {
       "src": "../../../../../../node_modules/@angular/cdk/fesm2022/bidi.mjs",
       "file": "@angular_cdk_bidi.js",
-      "fileHash": "0c0880da",
+      "fileHash": "55709fcd",
+      "needsInterop": false
+    },
+    "@angular/common/http": {
+      "src": "../../../../../../node_modules/@angular/common/fesm2022/http.mjs",
+      "file": "@angular_common_http.js",
+      "fileHash": "edffc540",
       "needsInterop": false
     }
   },
   "chunks": {
+    "chunk-BIDZKTI6": {
+      "file": "chunk-BIDZKTI6.js"
+    },
+    "chunk-E7ZSPZOY": {
+      "file": "chunk-E7ZSPZOY.js"
+    },
     "chunk-HN66YUPI": {
       "file": "chunk-HN66YUPI.js"
-    },
-    "chunk-RM4B5VLV": {
-      "file": "chunk-RM4B5VLV.js"
     },
     "chunk-2M6AX3IM": {
       "file": "chunk-2M6AX3IM.js"
