@@ -1,0 +1,34 @@
+<div class="site-header">
+  <a class="site-title" href="/home">City Website</a>
+
+  <div class="header-right">
+    <div class="nav-and-search">
+      <nav class="nav-links">
+        <a href="/legal">Legal</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <div class="search-container" #searchContainer>
+        <div class="search-wrapper">
+          <div class="search-bar-oval" [class.expanded]="searchExpanded">
+            <input
+              #searchInput
+              class="search-input"
+              type="text"
+              placeholder="Search"
+              (blur)="onSearchBlur()"
+              (keydown.enter)="onSearchEnter()"
+            />
+          </div>
+          <mat-icon
+            class="search-icon"
+            (click)="toggleSearch()"
+            aria-hidden="false"
+            aria-label="search icon"
+            fontIcon="search"
+          ></mat-icon>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
